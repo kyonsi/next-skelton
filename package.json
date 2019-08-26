@@ -1,0 +1,48 @@
+{
+  "scripts": {
+    "dev": "NODE_ENV=local PORT=3000 next dev",
+    "build": "NODE_ENV=development next build",
+    "start": "next start",
+    "build:staging": "NODE_ENV=staging next build",
+    "build:production": "NODE_ENV=production next build"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-redux": "^7.1.1",
+    "@types/redux": "^3.6.0",
+    "@types/yup": "^0.26.20",
+    "axios": "^0.19.0",
+    "next": "^9.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.12",
+    "@types/next": "^8.0.5",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "@types/typescript": "^2.0.0",
+    "@types/zeit__next-typescript": "^0.1.2",
+    "@zeit/next-typescript": "^1.1.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-emotion": "^10.0.14",
+    "dotenv-load": "^2.0.0",
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "next-env": "^1.1.0",
+    "next-progressbar": "^1.0.0",
+    "pm2": "^3.5.1",
+    "prettier": "^1.18.2",
+    "ts-loader": "^6.0.3",
+    "typescript": "^3.5.2",
+    "webpack": "^4.39.2"
+  },
+  "name": "repository-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kyonsi <s07e416@gmail.com>",
+  "license": "MIT"
+}
